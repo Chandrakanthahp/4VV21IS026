@@ -1,6 +1,7 @@
 const express = require('express');
-const { fetchTopProducts, fetchProductDetails } = require('./services');
 const { Cache } = require('./cache');
+const { fetchTopProducts, fetchProductDetails } = require('./services');
+
 
 const app = express();
 const cache = new Cache();
